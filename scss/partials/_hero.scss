@@ -1,0 +1,61 @@
+/* Hero Section */
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba($main-black-color, .4), rgba($main-black-color, .4)), url('https://i.ibb.co/1rP5Hqv/dubai-architecture-overlay.jpg') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0 50px 0 !important;
+    position: relative;
+
+    .hero-content {
+        position: absolute;
+        top: 35%;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+        .hero-text {
+            margin: 20px 0 40px 0 !important;
+
+            h2 {
+                font-size: 2.5rem;
+                font-weight: weight(bold);
+                text-transform: uppercase;
+                padding: 0 !important;
+                margin: 0 !important;
+                color: $secondary-white-color;
+
+                span {
+                    color: $logo-orange-color;
+                }
+            }
+
+            h1 {
+                font-size: 1rem;
+                color: $secondary-white-color;
+            }
+        }
+    }
+}
+
+@media ( max-width: 992px ) {
+
+    .hero {
+        min-height: 80vh;
+        padding: 50px 0 30px 0 !important;
+
+        .hero-content {
+            top: 30%;
+    
+            .hero-text {
+                margin-bottom:  20px!important;
+    
+                h2 {
+                    font-size: 1.8rem !important;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,71 @@
+/* Site Header */
+.site-header {
+
+    .navbar {
+        background: $main-white-color;
+        padding: 0 !important;
+        box-shadow: 0px 0px 5px 1px $light-grey-color-1;
+
+        .navbar-brand {
+
+            img {
+                width: 60%;
+                // display: none;
+            }
+
+            .site-title {
+                font-size: 1.5rem;
+                color: $logo-blue-color;
+                font-weight: weight(semi-bold);
+                text-transform: uppercase;
+                text-decoration: none;
+                margin-left: 15px;
+                margin-top: 2px;
+                // display: none;
+
+                span {
+                    color: $logo-orange-color;
+                }
+            }
+        }
+
+        .nav-link {
+            color: $dark-grey-color;
+            text-decoration: none;
+            padding: 15px;
+            font-weight: weight(semi-bold);
+            font-size: .9rem;
+            text-transform: uppercase;
+            transition: all .25s ease;
+
+            &:hover {
+                color: $logo-orange-color;
+            }
+
+            &.active {
+                color: $logo-orange-color;
+
+                &:hover {
+                    background: none;
+                }
+            }
+        }
+
+        .menu-toggler-icon {
+            font-size: 1rem;
+            font-weight: weight(semi-bold);
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $dark-grey-color;
+            padding: 3px 6px;
+            border: 1px solid $light-grey-color;
+            border-radius: 2px;
+            background: transparent;
+        }
+
+        .dropdown-menu {
+            border-top: 2px solid $logo-orange-color;
+            min-width: 60px;
+        }
+    }
+}

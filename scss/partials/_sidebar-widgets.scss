@@ -1,0 +1,157 @@
+/* Sidebar Widgets */
+
+.widget {
+    margin-bottom: 40px;
+    
+    .widget-title {
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        font-weight: weight(bold);
+        text-transform: uppercase;
+        border: 1px solid $logo-orange-color;
+        border-left: 4px solid $logo-orange-color;
+
+        span {
+            color: $main-black-color;
+        }
+    }
+
+    ul {
+        margin-left: 20px;
+        list-style: square;
+        color: $logo-blue-color;
+        
+        a {
+            color: $logo-blue-color;
+        }
+    }
+    ol {
+        margin-left: 20px;
+        color: $logo-blue-color;
+        
+        a {
+            color: $logo-blue-color;
+        }
+    }
+
+    p {
+        padding: 4px;
+        text-align: justify;
+    }
+
+    .post-img {
+        .row {
+            margin-bottom: 20px;
+        }
+        .entry-title {
+            font-size: .95rem;
+            padding: 0 !important;
+            margin: 0 !important;
+
+            a {
+                text-decoration: none;
+                color: $secondary-black-color;
+                font-size: .95rem;
+                font-weight: weight(semi-bold);
+                transition: all .35s ease-in-out;
+
+                &:hover {
+                    color: $logo-orange-color;
+                }
+            }
+        }
+    }
+
+}
+
+.widget {
+    .contact-visit {
+        padding: 10px;
+        border: 1px solid $light-grey-color;
+        background: $main-white-color;
+        box-shadow: 0 0 2px 0 $main-black-color;
+
+        form {
+            input {
+                border-color: $dark-grey-color;
+            }
+
+            textarea {
+                border-color: $dark-grey-color;
+            }
+        }
+
+        .submit-btn {
+            color: $secondary-white-color;
+            background: $logo-orange-color;
+            padding: 8px 4px;
+            border: none;
+            font-size: 1.2rem;
+            font-weight: weight(semi-bold);
+
+            &:hover {
+                background: $main-red-color;
+            }
+        }
+    }
+}
+
+.footer-widgets {
+
+    a {
+        color: $secondary-white-color !important;
+        font-size: .9rem;
+
+        &:hover {
+            color: $logo-orange-color !important;
+        }
+    }
+
+    .widget-title {
+        padding: 5px 10px;
+        border: none;
+        border-left: 4px solid $logo-orange-color;
+        font-weight: weight(semi-bold);
+
+        span {
+            color: $light-grey-color-1;
+            font-size: 1rem;
+        }
+    }
+
+    ul {
+        color: $secondary-white-color;
+        
+        a {
+            color: $secondary-white-color;
+            font-size: .9rem;
+            text-decoration: none;
+            transition: all .35s ease;
+
+            &:hover {
+                color: $logo-orange-color;
+            }
+        }
+    }
+    ol {
+        color: $secondary-white-color;
+        
+        a {
+            color: $secondary-white-color;
+            font-size: .9rem;
+            text-decoration: none;
+            transition: all .35s ease;
+
+            &:hover {
+                color: $logo-orange-color;
+            }
+        }
+    }
+
+    p {
+        padding: 4px;
+        text-align: justify;
+        color: $secondary-white-color;
+    }
+}

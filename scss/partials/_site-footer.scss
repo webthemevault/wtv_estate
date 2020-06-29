@@ -1,0 +1,20 @@
+/* Site Footer */
+footer {
+    padding: 10px 20px !important;
+    margin: 80px 0 0 0 !important;
+    background: $logo-blue-color;
+
+    .copyright {
+        font-size: .9rem;
+        padding-top: 15px;
+        border-top: 1px solid $light-grey-color;
+        color: $secondary-white-color;
+        text-align: center;
+
+        a {
+            color: $logo-orange-color;
+            text-decoration: none;
+        }
+    }
+}
+

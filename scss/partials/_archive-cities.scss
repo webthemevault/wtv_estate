@@ -1,0 +1,81 @@
+/* Archive Cities */
+.archive-cities {
+
+    .entry-title {
+        font-size: 1.8rem;
+        font-weight: weight(bold);
+        text-transform: uppercase;
+        padding: 0 0 10px 0 !important;
+        margin: 0 0 10px 0 !important;
+        border-bottom: 1px solid $light-grey-color;
+    }
+
+    .top-search-box {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .archive-cities-items {
+        padding: 10px 5px !important;
+
+        .item-1 {
+
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid $light-grey-color;
+
+            .item-1-inner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+
+                h4 {
+                    font-size: 1.2rem;
+                    font-weight: weight(semi-bold);
+
+                    span {
+                        font-size: 1.3rem;
+                        text-transform: uppercase;
+                        color: $logo-orange-color;
+                        font-weight: weight(bold);
+                    }
+                }
+
+                p {
+                    font-size: 1.05rem;
+                    font-weight: weight(semi-bold);
+                    text-transform: capitalize;
+                }
+            }
+
+            .item-list {
+
+                ul {
+                    list-style: none;
+                    margin: 0 0 5px 0 !important;
+                    padding: 0 !important;
+
+                    li {
+                        a {
+                            color: $logo-blue-color;
+                            transition: all .25s ease;
+
+                            &:hover {
+                                color: $logo-orange-color;
+                            }
+                        }
+                    }
+                }
+
+                .view-more-link {
+                    font-size: 1rem;
+                    text-transform: uppercase;
+                }
+
+            }
+
+        }
+    }
+
+}

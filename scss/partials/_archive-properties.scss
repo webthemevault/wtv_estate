@@ -1,0 +1,163 @@
+/* Properties Archive */
+.archive-properties {
+    padding-top: 10px;
+
+    .top-search-box {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .properties-archive-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+        .featured-content {
+            border: none;
+            position: relative;
+            margin-bottom: 30px;
+            box-shadow: 0 0 3px 3px $light-grey-color-1;
+            min-height: 550px;
+    
+            .span {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 4px 10px;
+                background: $logo-orange-color;
+                color: $secondary-white-color;
+                font-size: .8rem;
+                font-weight: weight(semi-bold);
+                z-index: 5;
+            }
+    
+            .img-container-hover {
+                overflow: hidden;
+                position: relative;
+    
+                &:hover {
+                    img {
+                        transform: scale(1.6) rotate(15deg);
+                    }
+    
+                    .img-overlay {
+                        height: 100%;
+                    }
+                }
+    
+                img {
+                    transition: all 1s ease;
+                }
+            }
+    
+            .featured-text {
+                padding: 10px 15px;
+    
+                .featured-title {
+                    font-size: 1.3rem;
+                    font-weight: weight(bold);
+                }
+    
+                .description {
+                    text-align: justify;
+                }
+    
+                .features {
+                    margin-top: 20px;
+                    ul {
+                        list-style: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-start;
+                        flex-wrap: nowrap;
+    
+                        li {
+                            margin-right: 30px;
+                            font-size: 1rem;
+    
+                            i {
+                                color: $light-grey-color-1;
+                                font-size: 1.1rem;
+                            }
+                            span {
+                                margin-left: 5px;
+                                font-weight: weight(semi-bold);
+                            }
+                        }
+                    }
+                }
+    
+                .price {
+                    margin: 20px 0 10px 0;
+                    border-bottom: 1px solid $light-grey-color;
+                    ul {
+                        list-style: none;
+                        display: block;
+    
+                        li {
+                            font-size: 1rem;
+                            font-weight: weight(semi-bold);
+    
+                            span {
+                                color: $logo-orange-color;
+                                font-size: 1.4rem;
+                                font-weight: weight(bold);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media ( max-width: 800px ) {
+    .properties-archive-container{
+        display: block !important;
+
+        .featured-content {
+    
+            .span {
+                font-size: .75rem !important;
+            }
+    
+            .featured-text {
+                padding: 10px 15px !important;
+    
+                .featured-title {
+                    font-size: 1.3rem !important;
+                }
+    
+                .features {
+                    margin-top: 15px !important;
+                    ul {
+    
+                        li {
+                            margin-right: 25px !important;
+                            font-size: .9rem !important;
+    
+                            i {
+                                font-size: 1rem !important;
+                            }
+                        }
+                    }
+                }
+    
+                .price {
+                    ul {
+    
+                        li {
+                            font-size: .9rem !important;
+    
+                            span {
+                                font-size: 1.2rem !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

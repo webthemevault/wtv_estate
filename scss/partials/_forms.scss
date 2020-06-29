@@ -1,0 +1,25 @@
+
+.form-control {
+    border-radius: 0 !important;
+    color: $main-black-color;
+    font-size: 1.1rem;
+}
+
+.listing-search-btn {
+    padding: 8px 25px;
+    margin: 20px 0 0 0;
+    background: $logo-orange-color;
+    color: $secondary-white-color;
+    font-size: 1.2rem;
+    font-weight: weight(semi-bold);
+    text-transform: uppercase;
+    border: none;
+    width: 40%;
+}
+
+@media ( max-width: 768px ) {
+    .listing-search-btn {
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
+}
